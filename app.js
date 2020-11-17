@@ -190,7 +190,7 @@ app.get('/getData', (req, res) => {
     beginAnalyse(res);
 
 })
-//Identify entities from a files and send back to API
+//Identify entities from a files and send back to APPI
 
 
 const key = '6ab597669ab74a7899073494ae9000a4';
@@ -199,7 +199,7 @@ const endpoint = 'https://classificationapi.cognitiveservices.azure.com/';
 const textAnalyticsClient = new TextAnalyticsClient(endpoint,  new AzureKeyCredential(key));
 
 var dataToSend = [];
-var idNumber = [];//done
+var idNumber = [];//done blabal
 var phoneNumber = [];//done
 var banking = [];//
 var tempQuant = [];//
